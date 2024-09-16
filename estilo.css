@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: cyan; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc5OoAvwJR4pxw4PFmMkfkl-VjmSHnh9f8dw&s);
+    background-color: #000064;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    animation: mudarCores 5s infinite;
+}
+
+img{
+    height: 200px;
+    margin: 30px;
+    border-radius: 15%;
+    box-shadow: 25px 30px 30px black;
+
+}
+    main{
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(233, 178, 107, 0.747);
+    text-align: center;
+    
+}
+
+    p{
+        font-family: sans-serif;
+        color: #000064;
+        font-weight:bold;
+        font-style: oblique;
+        font-stretch:condensed;
+        line-height: 20px;
+        /* letter-spacing: 20px; */
+        /* word-spacing: 5px; */
+        text-align: left;
+        /* text-decoration:dashed underline; */
+        /* text-transform: lowercase; */
+        text-indent: 20px;
+        text-shadow: 10px 3px 10px rgba(26, 25, 25, 0.521);
+    }
+
+    h1{
+        /* font-family: sans-serif; */
+        font-weight: 700;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-decoration: dashed;
+        color: rgb(0, 0, 0);
+        /* text-indent: 30px; */
+        text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.705);
+        line-height: 40px;
+        font-size: 400%;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 120%;
+        color: rgb(38, 0, 255);
+        text-shadow: 5px 5px 5px black;
+        font-weight: 700;
+    }
+    /* @keyframes mudarCores{
+    50%{
+        background-color:darkgrey
+    }
+    100%{
+        background-color: red;
+    }
+} */
+    
